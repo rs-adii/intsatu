@@ -1,0 +1,51 @@
+body {
+    width: auto;
+    height: 100vh;
+    background-image: url("assets/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+.head {
+    margin-top: 181px;
+    width: 400px;
+    height: 400px;
+    background-color: #181A1CD6;
+    color: white;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    font-size: 1rem;
+    font-weight: 500;
+    border-radius: 16px;
+    gap: 37px;
+}
+
+
+.logo {
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.second {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.btn {
+    height: 30px;
+    padding: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    border: 1px solid black;
+    background-color: white;
+}
