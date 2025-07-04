@@ -1,8 +1,10 @@
 import React from 'react';
+
 import { Link } from 'react-router-dom';
 
-function Daftar() {
+function Registrasi() {
   return (
+    <section>
     <header className="head">
       <div>
         <div className="logo">
@@ -11,7 +13,7 @@ function Daftar() {
           <h3>DAFTAR</h3>
           <p>Selamat datang</p>
         </div>
-
+        <br/>
         <form>
           <label htmlFor="username">Username</label><br />
           <input type="text" id="username" name="Username" /><br />
@@ -23,15 +25,16 @@ function Daftar() {
           <input type="password" id="password1" name="password1" /><br />
 
           <div className="second">
-            <p>Belum punya akun?<Link to="/Homepage">Daftar</Link></p>
+            <p>Belum punya akun?<Link to="/Registrasi">Daftar</Link></p>
           </div>
 
-          <p className="btn"><Link to="/Homepage">Masuk</Link></p>
-          <p className="btn"><Link to="/Homepage">Masuk dengan googlr</Link></p>
+          <p className="btn"><Link to="/">Masuk</Link></p>
+          <p className="btn"><Link to="/Homepage">Masuk dengan google</Link></p>
         </form>
       </div>
     </header>
+    </section>
   );
 }
 
-export default Daftar;
+export default Registrasi;

@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from 'react-router-dom';
 
 
+
 function Beranda() {
   return (
     <>
@@ -13,7 +14,7 @@ function Beranda() {
         <a href=""><p>Data Saya</p></a>
         <div className="profil1">
           <img src="src/assets/profil.png" alt="Profil" />
-          <img src="assets/KeyboardArrowDown.png" alt="Dropdown" />
+          <img src="src/assets/KeyboardArrowDown.png" alt="Dropdown" />
         </div>
       </header>
 
